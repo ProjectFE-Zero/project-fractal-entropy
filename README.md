@@ -4,6 +4,13 @@
 
 > *"The universe is not only stranger than we suppose, but stranger than we can suppose."* — J.B.S. Haldane
 
+<br>
+<div align="center">
+  <img src="fractal_entropy_diagram.png" alt="Concept Diagram" width="100%" style="max-width: 800px; border: 1px solid #333; box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);">
+  <br><br>
+  <em>Fig 0.1: The Structural Projection (Concept Art)</em>
+</div>
+<br>
 ## Abstract
 This repository serves as a record of trial and error to describe the processes of "order formation and decay" common to the **Cosmos** (Universe), **Bios** (Life), and **Logos** (Consciousness) as a single algorithm.
 
