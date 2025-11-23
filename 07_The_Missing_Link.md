@@ -67,26 +67,33 @@ Filling this "Blank Proof" is a task entrusted to the next generation of physici
 
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.js';
+  
+  // ダークテーマに合わせてMermaidもダークモードで初期化
   mermaid.initialize({ startOnLoad: false, theme: 'dark' });
 
   document.addEventListener("DOMContentLoaded", function() {
-    // Jekyllが変換したコードブロック(pre code.language-mermaid)を探す
-    const blocks = document.querySelectorAll('pre code.language-mermaid');
+    // Jekyll(Midnightテーマ)が生成するクラス名 ".language-mermaid" をターゲットにする
+    const blocks = document.querySelectorAll('.language-mermaid');
     
-    blocks.forEach(block => {
-      // コードの中身（図の定義）を取り出す
+    // もし上記で見つからない場合の保険（汎用的な検索）
+    const fallbackBlocks = document.querySelectorAll('pre code.language-mermaid');
+    
+    const allBlocks = [...blocks, ...fallbackBlocks];
+
+    allBlocks.forEach(block => {
+      // コードの中身を取り出す（HTMLエンティティもデコードされます）
       const content = block.textContent;
       
-      // 新しいdiv要素を作成し、mermaidクラスをつける
+      // 新しいdiv要素を作成
       const div = document.createElement('div');
       div.className = 'mermaid';
       div.textContent = content;
       
-      // 元のコードブロックを、新しいdiv要素に置き換える
-      block.parentElement.replaceWith(div);
+      // 元のコードブロックを新しいdivに置き換える
+      block.replaceWith(div);
     });
 
-    // Mermaidを実行して図を描画する
+    // 描画実行
     mermaid.run();
   });
 </script>
