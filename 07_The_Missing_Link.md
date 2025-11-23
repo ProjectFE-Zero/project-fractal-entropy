@@ -51,6 +51,7 @@ graph TD
     linkStyle 2 stroke-width:1px,stroke-dasharray: 5 5,stroke:gray;
     linkStyle 3 stroke-width:1px,stroke-dasharray: 5 5,stroke:gray;
 ```
+![Diagram](./fractal_entropy_diagram.png)
 
 * **Upper Layer:** Physical reality where entropy increases and order is lost.
 * **Lower Layer:** The process of consciousness/AI compressing information and updating models to form order.
