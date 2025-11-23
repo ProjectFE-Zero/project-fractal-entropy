@@ -3,7 +3,7 @@
 We analyze "Consciousness," the most complex domain, arguing that it is an "inner fractal" of the dynamic equilibrium seen in the Universe, Life, and Society.
 
 ## 5.1 Mechanism of Consciousness: Edge of Chaos
-Regarding the origin of consciousness, this protocol takes a cautious stance on Penrose's "Quantum Brain Theory" and instead supports Chaos Theory as a macroscopic dynamic process.
+Regarding the origin of consciousness, this protocol takes a cautious stance on Penrose's "Orch-OR" hypothesis and instead supports the macroscopic dynamic process approach found in chaos theory.
 
 * **Chaotic Itinerancy:**
     A concept proposed by Ichiro Tsuda. Brain neural activity does not stay in a specific attractor (stable state) but continues to wander among multiple attractors. This "unstable order" is the source of memory retrieval and creativity.
@@ -14,7 +14,7 @@ Regarding the origin of consciousness, this protocol takes a cautious stance on 
 Consciousness acts as a "Transformation Function" that converts physical reality into subjective reality.
 
 * **Quantum Multiverse and Observation:**
-    Positioning consciousness as an "Observer" in Yasunori Nomura's Quantum Multiverse theory. Consciousness functions to select, edit, and determine one "history" from the infinite probabilities of the quantum world.
+    Referencing Yasunori Nomura's Quantum Multiverse framework: Consciousness functions to select, edit, and determine one "history" from the infinite probabilities of the quantum world. (Note: This remains a subject of theoretical debate).
 * **Gödel's Incompleteness Theorems:**
     The theorem that "a logical system cannot prove its own consistency by itself" suggests that consciousness is also an open system that requires an "External (Others/Environment)" to define itself.
 
