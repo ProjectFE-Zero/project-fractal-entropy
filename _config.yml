@@ -1,4 +1,5 @@
-theme: jekyll-theme-slate
+remote_theme: pages-themes/slate
+plugins:
+- jekyll-remote-theme
 title: Project: Fractal Entropy
 description: Protocol for World Description (RFC)
-show_downloads: false
