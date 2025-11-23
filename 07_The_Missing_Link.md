@@ -9,9 +9,9 @@ The author adopts **Category Theory** here as a strong candidate for the descrip
 We hypothesize the existence of a structure-preserving map between physical phenomena (Macrocosmos) and informational phenomena (Microcosmos/Consciousness). We term this the **"Fractal Entropy Functor."**
 
 * **Definition 7.2.1 (Physical Category $\mathcal{C}_{phys}$):**
-    A category where objects are physical states in the universe, and morphisms are thermodynamic time evolution (entropy increase).
+    A category where objects are physical states in the universe, and morphisms represent thermodynamic time evolution (entropy increase).
 * **Definition 7.2.2 (Informational Category $\mathcal{C}_{info}$):**
-    A category where objects are internal states of Life/AI, and morphisms are inference processes (minimization of Free Energy/Loss).
+    A category where objects are internal states of Life/AI, and morphisms represent inference processes (minimization of Free Energy/Loss).
 
 **The Main Conjecture:**
 There exists a contravariant functor $F$ that preserves the structure from the Physical Category $\mathcal{C}_{phys}$ to the Informational Category $\mathcal{C}_{info}$.
