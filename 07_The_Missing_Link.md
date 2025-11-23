@@ -24,7 +24,7 @@ If this conjecture holds, the following Commutative Diagram must be satisfied. T
 
 *(See the Mermaid diagram below or the rendered image in the repository)*
 
-<div class="mermaid">
+<pre class="mermaid">
 %%{init: {'theme': 'dark', 'themeVariables': { 'fontSize': '16px', 'fontFamily': 'arial', 'darkMode': true }}}%%
 graph TD
     subgraph Universe ["Macrocosmos (Universe)"]
@@ -50,7 +50,15 @@ graph TD
     linkStyle 1 stroke-width:2px,fill:none,stroke:white;
     linkStyle 2 stroke-width:1px,stroke-dasharray: 5 5,stroke:gray;
     linkStyle 3 stroke-width:1px,stroke-dasharray: 5 5,stroke:gray;
+</pre>
+
+<br>
+<div align="center">
+  <img src="fractal_entropy_diagram.png" alt="Fractal Entropy Diagram" width="100%" style="max-width: 800px; border: 1px solid #333;">
+  <br>
+  <em>Fig 7.1: The Conjecture of Fractal Entropy Functor</em>
 </div>
+<br>
 
 * **Upper Layer:** Physical reality where entropy increases and order is lost.
 * **Lower Layer:** The process of consciousness/AI compressing information and updating models to form order.
