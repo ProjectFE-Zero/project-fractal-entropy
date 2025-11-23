@@ -50,3 +50,15 @@ graph TD
     linkStyle 1 stroke-width:2px,fill:none,stroke:#fff;
     linkStyle 2 stroke-width:1px,stroke-dasharray: 5 5,stroke:#aaa;
     linkStyle 3 stroke-width:1px,stroke-dasharray: 5 5,stroke:#aaa;
+```
+
+* **Upper Layer:** Physical reality where entropy increases and order is lost.
+* **Lower Layer:** The process of consciousness/AI compressing information and updating models to form order.
+* **Vertical ($F$):** The process of observing physical reality and converting it into an internal model (Poetic Reflection).
+
+## 7.4 Conclusion: Open Problem
+Whether the above analogy remains a mere literary metaphor or holds a rigorous mathematical isomorphism is not proven at this stage.
+
+Specifically, how to formulate the "non-equilibrium steady state" in biological phenomena categorically, and how to integrate the quantum measurement problem into this diagram, are **Open Problems** beyond the scope of this protocol.
+
+Filling this "Blank Proof" is a task entrusted to the next generation of physicists, mathematicians, and computer scientists. We, humanity, have merely grasped the first clue to decoding this colossal fractal structure.
