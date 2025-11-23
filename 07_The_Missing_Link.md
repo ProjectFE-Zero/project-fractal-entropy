@@ -45,11 +45,7 @@ graph TD
     A -. "Functor F<br/>(Observation)" .-> B
     A_prime -. "Functor F<br/>(Update)" .-> B_prime
 
-    %% Styling
-    linkStyle 0 stroke-width:2px,fill:none,stroke:#ffffff;
-    linkStyle 1 stroke-width:2px,fill:none,stroke:#ffffff;
-    linkStyle 2 stroke-width:1px,stroke-dasharray: 5 5,stroke:#aaaaaa;
-    linkStyle 3 stroke-width:1px,stroke-dasharray: 5 5,stroke:#aaaaaa;
+
 ```
 
 * **Upper Layer:** Physical reality where entropy increases and order is lost.
