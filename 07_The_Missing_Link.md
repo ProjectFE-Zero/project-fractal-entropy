@@ -22,40 +22,10 @@ This functor $F$ maps the "diffusion into disorder" in the physical world invers
 ## 7.3 Structural Sketch: The Commutative Diagram as a Mirror
 If this conjecture holds, the following Commutative Diagram must be satisfied. This suggests that the passage of time in the physical world is mathematically equivalent to the "generation of meaning" within consciousness.
 
-*(See the Mermaid diagram below or the rendered image in the repository)*
-
-<pre class="mermaid">
-%%{init: {'theme': 'dark', 'themeVariables': { 'fontSize': '16px', 'fontFamily': 'arial', 'darkMode': true }}}%%
-graph TD
-    subgraph Universe ["Macrocosmos (Universe)"]
-        A("State A <br/>(Universe t0)")
-        A_prime("State A' <br/>(Universe t1)")
-    end
-
-    subgraph Mind ["Microcosmos (Mind / AI)"]
-        B("State B <br/>(Mind t0)")
-        B_prime("State B' <br/>(Mind t1)")
-    end
-
-    %% Morphisms (Arrows)
-    A -- "Entropy Increase<br/>(Disorder)" --> A_prime
-    B -- "Free Energy Min.<br/>(Order / Learning)" --> B_prime
-
-    %% Functor F
-    A -. "Functor F<br/>(Observation)" .-> B
-    A_prime -. "Functor F<br/>(Update)" .-> B_prime
-
-    %% Styling (Color Names)
-    linkStyle 0 stroke-width:2px,fill:none,stroke:white;
-    linkStyle 1 stroke-width:2px,fill:none,stroke:white;
-    linkStyle 2 stroke-width:1px,stroke-dasharray: 5 5,stroke:gray;
-    linkStyle 3 stroke-width:1px,stroke-dasharray: 5 5,stroke:gray;
-</pre>
-
 <br>
 <div align="center">
-  <img src="fractal_entropy_diagram.png" alt="Fractal Entropy Diagram" width="100%" style="max-width: 800px; border: 1px solid #333;">
-  <br>
+  <img src="fractal_entropy_diagram.png" alt="Fractal Entropy Diagram" width="100%" style="max-width: 800px; border: 1px solid #333; box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);">
+  <br><br>
   <em>Fig 7.1: The Conjecture of Fractal Entropy Functor</em>
 </div>
 <br>
@@ -70,8 +40,3 @@ Whether the above analogy remains a mere literary metaphor or holds a rigorous m
 Specifically, how to formulate the "non-equilibrium steady state" in biological phenomena categorically, and how to integrate the quantum measurement problem into this diagram, are **Open Problems** beyond the scope of this protocol.
 
 Filling this "Blank Proof" is a task entrusted to the next generation of physicists, mathematicians, and computer scientists. We, humanity, have merely grasped the first clue to decoding this colossal fractal structure.
-
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.js';
-  mermaid.initialize({ startOnLoad: true, theme: 'dark' });
-</script>
