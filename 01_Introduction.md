@@ -8,7 +8,7 @@ Modern society faces two massive "dilution" phenomena progressing in different d
 2.  **Dilution of Value:**
     In the economic sphere, the excessive supply of Fiat Currency is diluting the value of money. Liquidity supply by central banks prolongs the system in the short term but is synonymous with an entropy-increasing process that dissolves the order of the economic system in the long term.
 
-These are not isolated social issues but modern manifestations of fundamental physical laws: **"The Law of Entropy Increase"** and **"The Mechanism of Order Formation."**
+It is important to note that applying physical laws to social phenomena is an **analogical framework**. However, these modern issues manifest as structurally isomorphic to fundamental physical laws: **"The Law of Entropy Increase"** and **"The Mechanism of Order Formation."**
 
 ## 1.2 Purpose and Scope
 The purpose of this protocol is to present a new conceptual framework that describes these phenomena through a single dynamic law.
