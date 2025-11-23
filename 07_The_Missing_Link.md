@@ -62,3 +62,31 @@ Whether the above analogy remains a mere literary metaphor or holds a rigorous m
 Specifically, how to formulate the "non-equilibrium steady state" in biological phenomena categorically, and how to integrate the quantum measurement problem into this diagram, are **Open Problems** beyond the scope of this protocol.
 
 Filling this "Blank Proof" is a task entrusted to the next generation of physicists, mathematicians, and computer scientists. We, humanity, have merely grasped the first clue to decoding this colossal fractal structure.
+
+
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.js';
+  mermaid.initialize({ startOnLoad: false, theme: 'dark' });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    // Jekyllが変換したコードブロック(pre code.language-mermaid)を探す
+    const blocks = document.querySelectorAll('pre code.language-mermaid');
+    
+    blocks.forEach(block => {
+      // コードの中身（図の定義）を取り出す
+      const content = block.textContent;
+      
+      // 新しいdiv要素を作成し、mermaidクラスをつける
+      const div = document.createElement('div');
+      div.className = 'mermaid';
+      div.textContent = content;
+      
+      // 元のコードブロックを、新しいdiv要素に置き換える
+      block.parentElement.replaceWith(div);
+    });
+
+    // Mermaidを実行して図を描画する
+    mermaid.run();
+  });
+</script>
