@@ -5,9 +5,12 @@ This chapter defines the scope of the three core theories used as tools for anal
 ## 2.1 Entropy: The Gravity of Existence
 Entropy is not merely an index of "randomness." It is the uncertainty of information and potentially the fundamental principle forming spacetime.
 
-* **Boltzmann Entropy:** Thermodynamic diffusion towards disorder.
-* **Shannon Entropy ($S = \sum p_i \log p_i$):** The measure of uncertainty in information theory.
-* **Entropic Gravity Hypothesis:** Erik Verlinde's hypothesis stating that "gravity is not a fundamental force but an emergent phenomenon resulting from changes in entropy." We adopt this as a metaphor for the driving force where information generates physical structure.
+* **Boltzmann Entropy ($S = k_B \ln W$):**
+    Thermodynamic entropy defined by the number of microstates $W$. It represents the diffusion towards disorder in a closed system.
+* **Shannon Entropy ($H = - \sum p_i \log p_i$):**
+    The measure of uncertainty in information theory. Note the negative sign; information is gained when uncertainty is resolved.
+* **Entropic Gravity Hypothesis:**
+    Erik Verlinde's proposal that "gravity is not a fundamental force but an emergent phenomenon resulting from changes in entropy." While currently a theoretical hypothesis, we adopt this as a metaphor for the driving force where information generates physical structure.
 
 ## 2.2 Fractal: Geometry of the World
 A geometric structure with "self-similarity" defined by Mandelbrot.
