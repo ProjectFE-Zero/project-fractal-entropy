@@ -27,12 +27,12 @@ If this conjecture holds, the following Commutative Diagram must be satisfied. T
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'fontSize': '16px', 'fontFamily': 'arial' }}}%%
 graph TD
-    subgraph Universe [Macrocosmos (Universe)]
+    subgraph Universe ["Macrocosmos (Universe)"]
         A("State A <br/>(Universe t0)")
         A_prime("State A' <br/>(Universe t1)")
     end
 
-    subgraph Mind [Microcosmos (Mind / AI)]
+    subgraph Mind ["Microcosmos (Mind / AI)"]
         B("State B <br/>(Mind t0)")
         B_prime("State B' <br/>(Mind t1)")
     end
