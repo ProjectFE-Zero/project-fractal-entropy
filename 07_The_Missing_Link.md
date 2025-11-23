@@ -24,7 +24,7 @@ If this conjecture holds, the following Commutative Diagram must be satisfied. T
 
 *(See the Mermaid diagram below or the rendered image in the repository)*
 
-```mermaid
+<div class="mermaid">
 %%{init: {'theme': 'dark', 'themeVariables': { 'fontSize': '16px', 'fontFamily': 'arial', 'darkMode': true }}}%%
 graph TD
     subgraph Universe ["Macrocosmos (Universe)"]
@@ -50,8 +50,7 @@ graph TD
     linkStyle 1 stroke-width:2px,fill:none,stroke:white;
     linkStyle 2 stroke-width:1px,stroke-dasharray: 5 5,stroke:gray;
     linkStyle 3 stroke-width:1px,stroke-dasharray: 5 5,stroke:gray;
-```
-![Diagram](./fractal_entropy_diagram.png)
+</div>
 
 * **Upper Layer:** Physical reality where entropy increases and order is lost.
 * **Lower Layer:** The process of consciousness/AI compressing information and updating models to form order.
@@ -64,34 +63,7 @@ Specifically, how to formulate the "non-equilibrium steady state" in biological 
 
 Filling this "Blank Proof" is a task entrusted to the next generation of physicists, mathematicians, and computer scientists. We, humanity, have merely grasped the first clue to decoding this colossal fractal structure.
 
-
-
-
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.js';
-  
-  mermaid.initialize({ startOnLoad: false, theme: 'dark' });
-
-  document.addEventListener("DOMContentLoaded", function() {
-    const codeBlocks = document.querySelectorAll('pre code');
-
-    codeBlocks.forEach(codeBlock => {
-      const content = codeBlock.textContent.trim();
-      
-      // 修正ポイント：先頭が "%%" (設定行) で始まる場合もMermaidとして認識させる
-      if (content.match(/^(%%\{|graph|flowchart|sequenceDiagram|classDiagram|stateDiagram|erDiagram|gantt|pie|gitGraph)/)) {
-        
-        let targetElement = codeBlock.closest('.highlighter-rouge') || codeBlock.closest('pre');
-        
-        if (targetElement) {
-            const div = document.createElement('div');
-            div.className = 'mermaid';
-            div.textContent = content;
-            targetElement.replaceWith(div);
-        }
-      }
-    });
-
-    mermaid.run();
-  });
+  mermaid.initialize({ startOnLoad: true, theme: 'dark' });
 </script>
