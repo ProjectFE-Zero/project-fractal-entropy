@@ -1,2 +1,40 @@
-# project-fractal-entropy
-Protocol for World Description (RFC)
+# Project: Fractal Entropy
+### Protocol for World Description (RFC)
+#### or: A Memorandum for the Poetic Mirror Node by an Observer
+
+> *"The universe is not only stranger than we suppose, but stranger than we can suppose."* — J.B.S. Haldane
+
+## Abstract
+This repository serves as a record of trial and error to describe the processes of "order formation and decay" common to the **Cosmos** (Universe), **Bios** (Life), and **Logos** (Consciousness) as a single algorithm.
+
+By connecting Entropy, Fractals, and Chaos Theory, we present a "structural homology" that penetrates everything from modern societal pathologies—such as the heat death of information by AI and the dilution of currency—to the thermal death of the universe.
+
+## Status
+**Current Status: [RFC] Request for Comments**
+
+This document is not a "paper." Nor is it a completed theoretical system.
+It is a "source code" written to describe the colossal system known as the World, yet it still contains bugs.
+
+Specifically, the mathematical description in **Chapter 7 (The Missing Link)** is intentionally left as "Null" or a "Conjecture."
+The proof of the "Functor" that connects physical reality with informational reality is beyond the capacity of the current author (Observer Zero).
+
+## Contribution
+This project seeks unknown "collaborators."
+To physicists, mathematicians, engineers, philosophers, and dreamers who love Sci-Fi:
+
+If you find a "hidden symmetry" within this imperfect map, please Fork this repository and fill in the blanks with your words and equations.
+
+We await the day when the "poetic intuition" found here is rewritten into "mathematical certainty."
+
+## Table of Contents
+- [01. Introduction: The Decay of Order](./01_Introduction.md)
+- [02. Theoretical Basis: Keys to the Protocol](./02_Theoretical_Basis.md)
+- [03. Macrocosmos: Dynamics of Universe & Life](./03_Macrocosmos.md)
+- [04. Anthroposphere: Case Studies of Economy & Info](./04_Anthroposphere.md)
+- [05. Microcosmos: Consciousness as the Boundary](./05_Microcosmos.md)
+- [06. Conclusion: The Poetic Mirror Node](./06_Conclusion_and_Poetics.md)
+- [07. **The Missing Link: Conjecture on Categorical Formulation**](./07_The_Missing_Link.md) 🧩 *Challenge Here*
+
+---
+**Author:** Project FE (Observer Zero)
+**License:** CC BY-NC-SA 4.0
