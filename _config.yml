@@ -1,5 +1,5 @@
 remote_theme: pages-themes/slate
 plugins:
-- jekyll-remote-theme
-title: Project: Fractal Entropy
-description: Protocol for World Description (RFC)
+  - jekyll-remote-theme
+title: "Project: Fractal Entropy"
+description: "Protocol for World Description (RFC)"
