@@ -25,7 +25,7 @@ If this conjecture holds, the following Commutative Diagram must be satisfied. T
 *(See the Mermaid diagram below or the rendered image in the repository)*
 
 ```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'fontSize': '16px', 'fontFamily': 'arial' }}}%%
+%%{init: {'theme': 'dark', 'themeVariables': { 'fontSize': '16px', 'fontFamily': 'arial', 'darkMode': true }}}%%
 graph TD
     subgraph Universe ["Macrocosmos (Universe)"]
         A("State A <br/>(Universe t0)")
@@ -45,7 +45,11 @@ graph TD
     A -. "Functor F<br/>(Observation)" .-> B
     A_prime -. "Functor F<br/>(Update)" .-> B_prime
 
-
+    %% Styling (Color Names)
+    linkStyle 0 stroke-width:2px,fill:none,stroke:white;
+    linkStyle 1 stroke-width:2px,fill:none,stroke:white;
+    linkStyle 2 stroke-width:1px,stroke-dasharray: 5 5,stroke:gray;
+    linkStyle 3 stroke-width:1px,stroke-dasharray: 5 5,stroke:gray;
 ```
 
 * **Upper Layer:** Physical reality where entropy increases and order is lost.
