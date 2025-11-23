@@ -68,29 +68,34 @@ Filling this "Blank Proof" is a task entrusted to the next generation of physici
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.js';
   
-  // ダークテーマに合わせてMermaidもダークモードで初期化
+  // ダークテーマ設定
   mermaid.initialize({ startOnLoad: false, theme: 'dark' });
 
   document.addEventListener("DOMContentLoaded", function() {
-    // Jekyll(Midnightテーマ)が生成するクラス名 ".language-mermaid" をターゲットにする
-    const blocks = document.querySelectorAll('.language-mermaid');
-    
-    // もし上記で見つからない場合の保険（汎用的な検索）
-    const fallbackBlocks = document.querySelectorAll('pre code.language-mermaid');
-    
-    const allBlocks = [...blocks, ...fallbackBlocks];
+    // ページ内のすべてのコードブロック（pre code）を取得
+    const codeBlocks = document.querySelectorAll('pre code');
 
-    allBlocks.forEach(block => {
-      // コードの中身を取り出す（HTMLエンティティもデコードされます）
-      const content = block.textContent;
+    codeBlocks.forEach(codeBlock => {
+      // テキスト内容を取得（前後の空白削除）
+      const content = codeBlock.textContent.trim();
       
-      // 新しいdiv要素を作成
-      const div = document.createElement('div');
-      div.className = 'mermaid';
-      div.textContent = content;
-      
-      // 元のコードブロックを新しいdivに置き換える
-      block.replaceWith(div);
+      // 中身がMermaidのキーワードで始まっているかチェック
+      // (GitHubのテーマがクラス名を消してしまっても、これで検知できます)
+      if (content.match(/^(graph|flowchart|sequenceDiagram|classDiagram|stateDiagram|erDiagram|gantt|pie|gitGraph)/)) {
+        
+        // コードブロックの大元の枠（div.highlighter-rouge または pre）を探す
+        let targetElement = codeBlock.closest('.highlighter-rouge') || codeBlock.closest('pre');
+        
+        if (targetElement) {
+            // 新しいMermaid用divを作成
+            const div = document.createElement('div');
+            div.className = 'mermaid';
+            div.textContent = content;
+            
+            // コードブロックをMermaid用divに置き換え
+            targetElement.replaceWith(div);
+        }
+      }
     });
 
     // 描画実行
