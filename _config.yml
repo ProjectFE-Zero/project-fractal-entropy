@@ -1,4 +1,4 @@
-remote_theme: pages-themes/slate
+remote_theme: pages-themes/merlot
 plugins:
   - jekyll-remote-theme
 title: "Project: Fractal Entropy"
